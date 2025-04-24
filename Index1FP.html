@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobby Hub</title>
+    <link rel="stylesheet" href="CSS styles/Index1FP.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="Index1FP.html">Home</a></li>
+        <li><a href="SoccerFP.html">Soccer News</a></li>
+        <li><a href="NBAFP.html">NBA</a></li>
+        <li><a href="TravelFP.html">Travel</a></li>
+        <li><a href="GalleryFP.html">Gallery</a></li>
+        <li><a href="ContactFP.html">Contact Me</a></li>
+      </ul>
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </nav>
+    <main id="content">
+      <h1 id="HobbyHub">Welcome to Hobby Hub</h1>
+      <div class="grid-container">
+        <div class="grid-item interactive-image">
+          <img src="images/FCB Soccer Ball.jpeg" alt="Soccer News" />
+          <a href="SoccerFP.html">Soccer News</a>
+        </div>
+        <div class="grid-item interactive-image">
+          <img src="images/NBACavsIndex.png" alt="NBA News" />
+          <a href="NBAFP.html">NBA News</a>
+        </div>
+        <div class="grid-item interactive-image">
+          <img src="images/Travel.jpeg" alt="Travel Page" />
+          <a href="TravelFP.html">Travel Page</a>
+        </div>
+        <div class="grid-item interactive-image">
+          <img src="images/Gallery.jpeg" alt="Gallery" />
+          <a href="GalleryFP.html">Gallery</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <form id="contact-form">
+        <h2>Contact Me</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const darkModeToggle = document.getElementById("dark-mode-toggle");
+        const body = document.body;
+
+        darkModeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+        });
+
+        const contactForm = document.getElementById("contact-form");
+        contactForm.addEventListener("submit", (event) => {
+          event.preventDefault();
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const phone = document.getElementById("phone").value;
+
+          if (name && email && phone) {
+            alert("Thank you for your submission!");
+            contactForm.reset();
+          } else {
+            alert("Please fill out all fields.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

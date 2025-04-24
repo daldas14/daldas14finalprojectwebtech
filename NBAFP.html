@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA News</title>
+    <link rel="stylesheet" href="CSS styles/NBAFP.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="Index1FP.html">Home</a></li>
+        <li><a href="NBAFP.html">NBA News</a></li>
+        <li><a href="SoccerFP.html">Soccer</a></li>
+        <li><a href="TravelFP.html">Travel</a></li>
+        <li><a href="GalleryFP.html">Gallery</a></li>
+        <li><a href="ContactFP.html">Contact Me</a></li>
+      </ul>
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </nav>
+    <center>
+      <header>
+        <h1>NBA News</h1>
+        <a
+          href="https://www.nba.com/cavaliers/"
+          target="_blank"
+          class="header-image"
+        >
+          <img
+            src="images/NBACavaliers.jpeg"
+            alt="Cleveland Cavaliers Logo"
+            width="250"
+            height="275"
+          />
+        </a>
+      </header>
+    </center>
+    <main>
+      <section>
+        <h2>Recent Articles</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.msn.com/en-us/sports/nba/cleveland-cavaliers-owner-fires-shot-after-ty-jerome-snubbing/ar-AA1DtePg"
+              target="_blank"
+              >Cleveland Cavaliers Owner Fires Shot After Ty Jerome Snubbing</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.msn.com/en-us/sports/nba/cavaliers-vs-heat-odds-prediction-time-2025-nba-playoff-picks-game-2-best-bets-from-proven-model/ar-AA1DsNdQ"
+              target="_blank"
+              >Cavaliers vs. Heat: 2025 NBA Playoff Picks</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.totalprosports.com/nba/cleveland-cavaliers-hidden-weapon-how-ty-jerome-silently-became-a-game-changer/"
+              target="_blank"
+              >Cleveland Cavaliers’ Hidden Weapon: Ty Jerome</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Recent Videos</h2>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4ox2jZiYNlo"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=4ox2jZiYNlo"
+              target="_blank"
+              >Miami Heat vs Cleveland Cavaliers Full Game Highlights - 2025
+              Playoffs</a
+            >
+          </p>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/6YB1yWf7QiU"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=6YB1yWf7QiU"
+              target="_blank"
+              >Donovan Mitchell Drops 40 Points in Playoff Game</a
+            >
+          </p>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7493648799194189102"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=rTS-dle3G6I"
+              target="_blank"
+              >Cavaliers 2025 Season Hype Video</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const darkModeToggle = document.getElementById("dark-mode-toggle");
+        const body = document.body;
+
+        darkModeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+        });
+      });
+    </script>
+  </body>
+</html>

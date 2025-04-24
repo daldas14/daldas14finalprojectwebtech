@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Page</title>
+    <link rel="stylesheet" href="CSS styles/TravelFP.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="Index1FP.html">Home</a></li>
+        <li><a href="SoccerFP.html">Soccer News</a></li>
+        <li><a href="NBAFP.html">NBA</a></li>
+        <li><a href="TravelFP.html">Travel</a></li>
+        <li><a href="GalleryFP.html">Gallery</a></li>
+        <li><a href="ContactFP.html">Contact Me</a></li>
+      </ul>
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </nav>
+    <center>
+      <h1>Travel Suggestions!</h1>
+
+      <div class="grid-item interactive-image">
+        <img src="images/KyotoJapan.jpg" alt="Kyoto, Japan" />
+        <h2>Kyoto, Japan</h2>
+        <p>
+          Explore ancient temples, cherry blossoms in spring, and traditional
+          tea ceremonies.
+        </p>
+      </div>
+      <br />
+      <div class="grid-item interactive-image">
+        <img src="images/SantoriniGreece.jpg" alt="Santorini, Greece" />
+        <h2>Santorini, Greece</h2>
+        <p>
+          Famous for stunning sunsets, whitewashed buildings, and blue-domed
+          churches.
+        </p>
+      </div>
+      <br />
+      <div class="grid-item interactive-image">
+        <img src="images/BanffCanada.jpg" alt="Banff, Canada" />
+        <h2>Banff, Canada</h2>
+        <p>
+          Visit turquoise lakes and hike through the majestic Canadian Rockies.
+        </p>
+      </div>
+      <br />
+      <div class="grid-item">
+        <iframe
+          width="100%"
+          height="200"
+          src="https://www.youtube.com/embed/eLPVDaaQybY"
+          title="Top 10 Places to Visit in 2025"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+
+        <h2>Destination Inspiration</h2>
+        <p>
+          Watch stunning aerial and VLOG footage of top travel destinations
+          around the world.
+        </p>
+      </div>
+    </center>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const darkModeToggle = document.getElementById("dark-mode-toggle");
+        const body = document.body;
+
+        darkModeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+        });
+      });
+    </script>
+  </body>
+</html>
