@@ -1,15 +1,22 @@
-Final Project Reflection (PM)
-How did you come up with your idea?
 
-The idea for my front-end website project, Total News, emerged from my interest in creating a comprehensive and user-friendly news platform. I wanted to design a website that caters to diverse interests by offering categories such as business, technology, culture, local, national, and science. This concept was inspired by the need for a centralized source where users can easily access news from various domains. My goal was to create an engaging and informative platform that enhances the user experience through intuitive navigation and visually appealing design.
 
-How well did the collaboration with your developer work?
+```markdown
+## PM Final Project Reflection
 
-Collaboration with my developer was a key component of this project. We established clear communication channels early on, which helped us stay aligned with our goals and deadlines. Regular messaging and feedback sessions ensured that we were on the same page and could address any issues promptly. Our teamwork was effective, and we leveraged each other's strengths to enhance the project's quality. This collaborative effort not only improved the final product but also enriched my understanding of working in a team environment. It was very easy working with my developer and made the entire process hastle free.
+My project was inspired by two of my biggest hobbies: sports and traveling. To keep them organized, I focused on the sports I watch the most—basketball (NBA) and soccer (my favorite team being FC Barcelona).
 
-What did you learn about writing requirements?
+### Collaboration Experience
+The collaboration with Owen worked great. I appreciated him reaching out and asking for feedback before incorporating it. He captured my idea perfectly and even included aspects I had not thought about adding myself. These additions reflected his personal touch as a developer, and I liked them.
 
-Writing requirements was a significant learning experience for me. I realized the importance of being precise and detailed in outlining the project's scope and objectives. Clear requirements helped in minimizing misunderstandings and provided a solid foundation for the development process. I learned to anticipate potential challenges and include contingency plans in the requirements. This practice ensured that we could adapt to changes without compromising the project's integrity. Overall, writing thorough requirements was instrumental in guiding the project to successful completion. It also showed me that the process can be fluid, as hard as tried to include everything I wanted, there was always going to be details that I left out or that my developer brought up which I thought would be good to implement. 
+### Lessons Learned
+From writing requirements for this project, I learned the importance of being as descriptive as possible. Clear requirements ensure the developer knows exactly what to do, avoiding misunderstandings that could lead to unsatisfactory results. However, I also realized the value of not entirely limiting the developer to strict requirements. Allowing some creative freedom can result in features or aspects you hadn't considered but end up appreciating.
 
-Did you use any AI tools in this process? How?
-I did not use AI tools in this process other than to identify which key news categories the website would offer. I wanted to make the project mostly my ideas but it helped to use it for indentifying categories because I wanted to see what type of news would be most desired to include in my website. 
+To summarize, the key lessons I learned as a project manager are:
+1. Be descriptive and clear in your requirements.
+2. Allow room for the developer's creativity to shine.
+
+Finding the right balance between fixed requirements and creative freedom is essential for a successful collaboration.
+
+### Use of AI in Design
+As a project manager, I used AI to assist with the design process. I had a basic structure in mind, such as a navigation bar and a homepage connecting to all the pages, but I was unsure about the overall design. I utilized Copilot's ability to generate designs. Starting with a basic design, I refined it by providing prompts like "include at the top" or "move the image to the left," along with images of what to include. Copilot updated the design iteratively until I was satisfied. I then sketched the final design on paper, which I submitted as the homepage sketch.
+```
