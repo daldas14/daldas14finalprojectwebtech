@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="CSS styles/GalleryFP.css" />
+    <link rel="stylesheet" href="CSSFP/GalleryFP.css " />
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="Index1FP.html">Home</a></li>
-        <li><a href="SoccerFP.html">Soccer News</a></li>
+        <li><a href="SoccerFP.html">Soccer</a></li>
         <li><a href="NBAFP.html">NBA</a></li>
         <li><a href="TravelFP.html">Travel</a></li>
         <li><a href="GalleryFP.html">Gallery</a></li>
@@ -18,10 +18,78 @@
       </ul>
       <button id="dark-mode-toggle">Toggle Dark Mode</button>
     </nav>
+    <main>
+      <h1 id="HobbyHub">Photo Gallery</h1>
+      <div class="grid-container">
+        <!-- Travel Destinations -->
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/ParisFP.jpg"
+            alt="Eiffel Tower, Paris"
+          />
+          <a href="#">Eiffel Tower - Paris</a>
+        </div>
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/TokyoFP.jpg"
+            alt="Tokyo Skyline"
+          />
+          <a href="#">Tokyo Skyline - Japan</a>
+        </div>
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/TimesSquareFP.jpg"
+            alt="Times Square"
+          />
+          <a href="#">Times Square - NYC</a>
+        </div>
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/RomeFP.jpg"
+            alt="Colosseum in Rome"
+          />
+          <a href="#">Colosseum - Rome</a>
+        </div>
 
-    <center>
-      <h1>My Photo Gallery</h1>
-    </center>
+        <!-- NBA Cavaliers Players -->
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/DMitchellFP.jpg"
+            alt="Donovan Mitchell"
+          />
+          <a href="#">Donovan Mitchell - Cavaliers</a>
+        </div>
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/GarlandFP.jpg"
+            alt="Darius Garland"
+          />
+          <a href="#">Darius Garland - Cavaliers</a>
+        </div>
+
+        <!-- FC Barcelona Players -->
+        <div class="grid-item">
+          <img
+            class="interactive-image"
+            src="ImagesFP/LewandowskiFP.jpg"
+            alt="Robert Lewandowski"
+          />
+          <a href="#">Robert Lewandowski - FC Barcelona</a>
+        </div>
+        <div class="grid-item">
+          <img class="interactive-image" src="ImagesFP/PedriFP.jpg" alt="Pedri" />
+          <a href="#">Pedri - FC Barcelona</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; 2025 Hobby Hub | All rights reserved.</footer>
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {

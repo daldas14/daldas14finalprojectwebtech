@@ -29,6 +29,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #dark-mode-toggle {
@@ -64,10 +65,18 @@ h1 {
   height: 300px;
   object-fit: cover;
   transition: transform 0.3s ease, filter 0.3s ease;
+  background-color: transparent;
 }
 
 .header-image:hover {
   transform: scale(1.05);
   filter: brightness(1.1);
   cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
 }
